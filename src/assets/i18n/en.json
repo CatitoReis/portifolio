@@ -2,7 +2,7 @@
   "home": {
     "title-1-begin": "Angular 2+",
     "title-1-end": "Developer",
-    "description": "Hi, I'm Gustavo. A passionate Front-end Angular 2+ developer based in Valparaíso de Goias, Brazil. 📍"
+    "description": "Hi, I'm Caio. A passionate Front-end Angular 2+ developer based in Cidade Ocidental-GO, Brazil. 📍"
   },
 
   "about": {
@@ -20,7 +20,7 @@
     "title-1": "Contact",
     "title-2": "Don't be shy! Hit me up! 👇",
     "localization": "Location",
-    "localization-value": "Valparaíso de Goias, Brazil",
+    "localization-value": "Cidade Ocidental-GO, Brazil",
     "mail": "Mail",
     "mail-value": "Contact through your presentation page"
   },

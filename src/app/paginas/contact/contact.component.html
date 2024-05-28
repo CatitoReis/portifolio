@@ -1,0 +1,38 @@
+<div class="contact-container" *transloco="let t">
+  <div class="title-1">{{ t("contact.title-1") }}</div>
+  <div class="title-2">{{ t("contact.title-2") }}</div>
+
+  <div class="contacts">
+    <div class="bloco">
+      <icon
+        styleClass="icon icon-zoom"
+        icon="icon-google-maps.png"
+        width="75"
+        height="75"
+        alt="Google Maps icon by Icons8"
+      ></icon>
+      <div class="bloco-info">
+        <h4>{{ t("contact.localization") }}</h4>
+        <p>{{ t("contact.localization-value") }}</p>
+      </div>
+    </div>
+    <div class="bloco">
+      <icon
+        styleClass="icon icon-zoom"
+        icon="icon-gmail.png"
+        width="75"
+        height="75"
+        alt="Gmail icon by Icons8"
+      ></icon>
+      <div class="bloco-info">
+        <h4>{{ t("contact.mail") }}</h4>
+        <a
+          href="mailto:gustavor.oliveiraa@gmail.com?subject={{
+            t('contact.mail-value')
+          }}"
+          ><p class="link">gustavor.oliveiraa@gmail.com</p></a
+        >
+      </div>
+    </div>
+  </div>
+</div>

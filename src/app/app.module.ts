@@ -17,6 +17,8 @@ import { HeaderComponent } from './paginas/header/header/header.component';
 import { HomeComponent } from './paginas/home/home/home.component';
 import { SharedModule } from './shared/components/shared.module';
 import { AboutMeComponent } from './paginas/about-me/about-me.component';
+import { ProjectsComponent } from './/paginas/projects/projects.component';
+import { ContactComponent } from './paginas/contact/contact.component';
 
 
 
@@ -28,6 +30,8 @@ import { AboutMeComponent } from './paginas/about-me/about-me.component';
     HeaderComponent,
     HomeComponent,
     AboutMeComponent,
+    ProjectsComponent,
+    ContactComponent,
 
 
   ],

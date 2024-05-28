@@ -1,0 +1,88 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: onShow 1s ease;
+
+  .title-2 {
+    font-size: 1.5rem;
+    color: var(--var-green);
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--var-green);
+    margin-bottom: 5rem;
+  }
+
+  .title-1 {
+    color: #000;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+    .bloco {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      icon {
+        width: 75px;
+        height: 75px;
+      }
+
+      .bloco-info {
+        text-align: center;
+
+        p {
+          color: #000;
+          font-weight: 600;
+          color: rgba($color: #000, $alpha: 0.6);
+        }
+
+        h4 {
+          margin-bottom: 0.5rem;
+          color: #000;
+          font-size: 1.1rem;
+        }
+
+        .link {
+          transition: 0.15s;
+          &:hover {
+            color: var(--var-green);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 831px) {
+  .contact-container {
+    transition: 1s all;
+
+    .title-1,
+    .title-2 {
+      align-self: flex-start;
+    }
+
+    .contacts {
+      flex-direction: row;
+      position: relative;
+      left: -5px;
+
+      .bloco {
+        flex-direction: row;
+
+        .bloco-info {
+          text-align: start;
+        }
+      }
+    }
+  }
+}

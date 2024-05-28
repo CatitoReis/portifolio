@@ -1,0 +1,41 @@
+<div class="projects-container" *transloco="let t">
+  <div class="title-1" [ngStyle]="{ top: isSmallScreen ? '-13rem' : '0' }">
+    {{ t("project.title-1-begin") }}
+    <span class="green">{{ t("project.title-1-end") }}</span>
+  </div>
+  <div class="card-container">
+    <div
+      data-tilt
+      data-tilt-glare
+      data-tilt-max="5"
+      data-tilt-reverse="true"
+      data-tilt-max-glare="0.5"
+      class="card-item vanillaTilt coming-soon"
+      *ngFor="let img of imgs; let i = index"
+      [ngClass]="{
+        slider: isSmallScreen,
+        effect: !isSmallScreen,
+        selected: i === selectedIndex && isSmallScreen,
+        prev: i === selectedIndex - 1 && isSmallScreen,
+        next: i === selectedIndex + 1 && isSmallScreen,
+        hideLeft: i < selectedIndex - 1 && isSmallScreen,
+        hideRight: i > selectedIndex + 1 && isSmallScreen
+      }"
+      (panright)="showPrev(i)"
+      (panleft)="showNext(i)"
+    >
+      <div
+        class="card-img"
+        [style.background-image]="'url(' + img.src + ')'"
+      ></div>
+      <div class="card-text">
+        <div class="card-title"><span class="green">Lorem</span> ipsum</div>
+        <div class="card-description">
+          dolor sit amet consectetur adipisicing elit. Doloremque illum nam
+          nobis, minima laudantium fugit sequi nostrum quod impedit, beatae
+          necessitatibus praesentium optio labore nemo!
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

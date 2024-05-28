@@ -1,0 +1,16 @@
+<picture>
+  <source
+    [width]="width"
+    [height]="width"
+    [style.animation-duration]="velocity"
+    media="(max-width:900px)"
+    [srcset]="'assets/imgs/' + img[0]"
+  />
+
+  <img
+    [width]="width"
+    [height]="height"
+    [style.animation-duration]="velocity"
+    [srcset]="'assets/imgs/' + img[1]"
+  />
+</picture>

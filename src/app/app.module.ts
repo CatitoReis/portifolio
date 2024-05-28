@@ -15,6 +15,8 @@ import { DropdownModule } from 'primeng/dropdown';
 import { SidebarComponent } from './paginas/sidebar/sidebar/sidebar.component';
 import { HeaderComponent } from './paginas/header/header/header.component';
 import { HomeComponent } from './paginas/home/home/home.component';
+import { SharedModule } from './shared/components/shared.module';
+
 
 
 @NgModule({
@@ -37,7 +39,8 @@ import { HomeComponent } from './paginas/home/home/home.component';
     HttpClientModule,
     SidebarModule,
     RippleModule,
-    DropdownModule
+    DropdownModule,
+    SharedModule,
 
 
   ],

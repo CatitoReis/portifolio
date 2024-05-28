@@ -2,7 +2,7 @@
   "home": {
     "title-1-begin": "Desenvolvedor",
     "title-1-end": "Angular 2+",
-    "description": "Olá, me chamo Caio. Um desenvolvedor Angular 2+ apaixonado por Front-end morando em Cidade Ocidental-GO, Brasil. 📍"
+    "description": "Olá, me chamo Caio. Um desenvolvedor Angular 2+ apaixonado por Front-end morando em Brasília-DF, Brasil. 📍"
   },
 
   "about": {
@@ -20,7 +20,7 @@
     "title-1": "Contato",
     "title-2": "Não seja tímido! Entre em contato! 👇",
     "localization": "Localização",
-    "localization-value": "Cidade Ocidental-GO, Brasil",
+    "localization-value": "Brasília-DF, Brasil",
     "mail": "Email",
     "mail-value": "Contato através de sua página de apresentação"
   },

@@ -1,0 +1,24 @@
+<app-sidebar #sidebar [buttons]="navLinks"></app-sidebar>
+
+<app-header [buttons]="navLinks" [isSmallScreen]="isSmallScreen">
+  <ng-container sidebarButton>
+    <p-button
+      icon="pi pi-bars"
+      (click)="sidebar.toggle = true"
+      styleClass="p-button-rounded p-button-white p-button-text show"
+    ></p-button>
+  </ng-container>
+</app-header>
+
+
+<section id="home" class="card">
+  <app-home></app-home>
+</section>
+
+
+<footer>
+  <span
+    >Images and Icons by
+    <a target="_blank" href="https://icons8.com.br/icons/"> icons8 </a></span
+  >
+</footer>

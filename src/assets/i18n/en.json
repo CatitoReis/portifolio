@@ -1,0 +1,29 @@
+{
+  "home": {
+    "title-1-begin": "Angular 2+",
+    "title-1-end": "Developer",
+    "description": "Hi, I'm Gustavo. A passionate Front-end Angular 2+ developer based in Valparaíso de Goias, Brazil. 📍"
+  },
+
+  "about": {
+    "about": "About",
+    "me": "me",
+    "description": "Passionate about technology and with a sense of responsibility, I always try to do my best. Currently my main stack is Angular 2+ and PrimeNG together with CSS FLEX and GRID for responsive layouts, Jasmine for unit testing and GIT for version control."
+  },
+
+  "project": {
+    "title-1-begin": "My",
+    "title-1-end": "Projects"
+  },
+
+  "contact": {
+    "title-1": "Contact",
+    "title-2": "Don't be shy! Hit me up! 👇",
+    "localization": "Location",
+    "localization-value": "Valparaíso de Goias, Brazil",
+    "mail": "Mail",
+    "mail-value": "Contact through your presentation page"
+  },
+
+  "footer": "Images and Icons by"
+}

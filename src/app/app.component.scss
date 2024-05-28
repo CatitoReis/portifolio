@@ -1,0 +1,41 @@
+.card {
+  top: 75px;
+  position: relative;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home {
+  min-height: calc(100% - 75px);
+}
+
+#about,
+#contact {
+  height: fit-content;
+  background: #fff;
+}
+
+#projects {
+  width: 100%;
+  min-height: calc(100% - 75px);
+  overflow-x: hidden;
+}
+
+footer {
+  top: 75px;
+  height: 75px;
+  box-shadow: var(--shadow-4);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 600;
+
+  span > a {
+    color: var(--var-green);
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,27 @@
+<p-sidebar
+  [(visible)]="toggle"
+  [showCloseIcon]="false"
+  [style]="{ width: '100%' }"
+  transitionOptions="0.25s"
+>
+  <ng-template pTemplate="header" style="border: 4px solid">
+    <div class="btn-close">
+      <p-button
+        icon="pi pi-times"
+        (click)="toggle = false"
+        styleClass="p-button-rounded p-button-white p-button-text"
+      ></p-button>
+    </div>
+  </ng-template>
+  <ng-template pTemplate="content"
+    ><nav>
+      <p-button
+        *ngFor="let button of buttons"
+        pRipple
+        [label]="button.label"
+        (click)="scroolTo(button.href)"
+        styleClass="p-button-text p-button-white p-button-sm"
+      ></p-button></nav
+  ></ng-template>
+  <ng-template pTemplate="footer"></ng-template>
+</p-sidebar>

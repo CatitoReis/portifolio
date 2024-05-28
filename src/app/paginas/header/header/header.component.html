@@ -1,0 +1,27 @@
+<header>
+  <span class="btn-start">
+    <p-dropdown
+      [options]="stateOptions"
+      [(ngModel)]="value"
+      optionLabel="label"
+      optionValue="value"
+      placeholder="pt-BR"
+      (onClick)="setLang(value)"
+      styleClass="p-select-button show"
+    ></p-dropdown>
+  </span>
+
+  <nav *ngIf="!isSmallScreen" class="nav-links">
+    <p-button
+      *ngFor="let button of buttons"
+      pRipple
+      [label]="button.label"
+      (click)="scroolTo(button.href)"
+      styleClass="p-button-text p-button-white p-button-sm show"
+    ></p-button>
+  </nav>
+
+  <div *ngIf="isSmallScreen" class="btn-close">
+    <ng-content select="[sidebarButton]"></ng-content>
+  </div>
+</header>

@@ -1,0 +1,45 @@
+<div class="avatar-container" *transloco="let t">
+  <!--
+
+    <blob-avatar
+      [img]="['avatar-sm.webp', 'avatar-lg.webp']"
+      width="350"
+      height="500"
+      velocity="8s"
+    ></blob-avatar>
+  -->
+
+
+  <div class="avatar-text">
+    <div class="title-2 green">GUSTAVO R. OLIVEIRA</div>
+    <div class="title-1">
+      {{ t("home.title-1-begin") }}
+      <span class="green"> {{ t("home.title-1-end") }}</span>
+    </div>
+    <div class="description">
+      {{ t("home.description") }}
+    </div>
+    <div class="avatar-social-medias">
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/gustavo-rodrigues-oliveira/"
+      >
+        <i class="pi pi-linkedin"></i>
+      </a>
+      <a target="_blank" href="https://github.com/Gustavo-R-Oliveira">
+        <i class="pi pi-github"></i>
+      </a>
+    </div>
+
+    <a
+      class="download"
+      href="assets/curriculo/curriculoGustavo.pdf"
+      download="curriculo-gustavo.pdf"
+      ><p-button
+        pRipple
+        label="DOWNLOAD CV"
+        styleClass="p-button-outlined p-button-green p-button show"
+      ></p-button
+    ></a>
+  </div>
+</div>

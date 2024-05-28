@@ -1,0 +1,29 @@
+{
+  "home": {
+    "title-1-begin": "Desenvolvedor",
+    "title-1-end": "Angular 2+",
+    "description": "Olá, me chamo Gustavo. Um desenvolvedor Angular 2+ apaixonado por Front-end morando em Valparaíso de Goiás, Brasil. 📍"
+  },
+
+  "about": {
+    "about": "Sobre",
+    "me": "mim",
+    "description": "Apaixonado por tecnologia e com senso de responsabilidade, sempre procuro fazer o melhor. Atualmente minha stack principal é Angular 2+ e PrimeNG em conjunto com CSS FLEX e GRID para layouts responsivos, Jasmine para testes unitários e GIT para controle de versão."
+  },
+
+  "project": {
+    "title-1-begin": "Meus",
+    "title-1-end": "projetos"
+  },
+
+  "contact": {
+    "title-1": "Contato",
+    "title-2": "Não seja tímido! Entre em contato! 👇",
+    "localization": "Localização",
+    "localization-value": "Valparaíso de Goiás, Brasil",
+    "mail": "Email",
+    "mail-value": "Contato através de sua página de apresentação"
+  },
+
+  "footer": "Imagens e icones por"
+}

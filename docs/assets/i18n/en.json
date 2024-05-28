@@ -1,0 +1,29 @@
+{
+  "home": {
+    "title-1-begin": "Angular 2+",
+    "title-1-end": "Developer",
+    "description": "Hi, I'm Caio. A passionate Front-end Angular 2+ developer located in Brasília-DF, Brazil. 📍"
+  },
+
+  "about": {
+    "about": "About",
+    "me": "me",
+    "description": "I'm 24 years old and have a lot of experience as a software developer, with a degree in Information Systems and three years of practical work. I work with technologies such as JavaScript/ Typescript, Angular, Ionic, Git, SQL and Docker. I excel at creating new features, solving problems and collaborating well with teams from different areas."
+  },
+
+  "project": {
+    "title-1-begin": "My",
+    "title-1-end": "Projects"
+  },
+
+  "contact": {
+    "title-1": "Contact",
+    "title-2": "Don't be shy! Hit me up! 👇",
+    "localization": "Number",
+    "localization-value": "Brasília-DF, Brazil",
+    "mail": "Mail",
+    "mail-value": "Contact through your presentation page"
+  },
+
+  "footer": "Images and Icons by"
+}

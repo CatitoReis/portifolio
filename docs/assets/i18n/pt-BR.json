@@ -1,0 +1,29 @@
+{
+  "home": {
+    "title-1-begin": "Desenvolvedor",
+    "title-1-end": "Angular 2+",
+    "description": "Olá, me chamo Caio. Um desenvolvedor Angular 2+ apaixonado por Front-end morando em Brasília-DF, Brasil. 📍"
+  },
+
+  "about": {
+    "about": "Sobre",
+    "me": "mim",
+    "description": "Tenho 24 anos e bastante experiência como desenvolvedor de software, com um diploma em Sistemas de Informação e três anos de trabalho prático. Trabalho com tecnologias como JavaScript/ Typescript, Angular, Ionic, Git, SQL e Docker. Me destaco em criar novos recursos, resolver problemas e colaborar bem com equipes de diferentes áreas."
+  },
+
+  "project": {
+    "title-1-begin": "Meus",
+    "title-1-end": "projetos"
+  },
+
+  "contact": {
+    "title-1": "Contato",
+    "title-2": "Não seja tímido! Entre em contato! 👇",
+    "localization": "Telefone",
+    "localization-value": "Brasília-DF, Brasil",
+    "mail": "Email",
+    "mail-value": "Contato através de sua página de apresentação"
+  },
+
+  "footer": "Imagens e icones por"
+}

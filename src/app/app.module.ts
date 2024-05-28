@@ -16,6 +16,8 @@ import { SidebarComponent } from './paginas/sidebar/sidebar/sidebar.component';
 import { HeaderComponent } from './paginas/header/header/header.component';
 import { HomeComponent } from './paginas/home/home/home.component';
 import { SharedModule } from './shared/components/shared.module';
+import { AboutMeComponent } from './paginas/about-me/about-me.component';
+
 
 
 
@@ -25,6 +27,7 @@ import { SharedModule } from './shared/components/shared.module';
     SidebarComponent,
     HeaderComponent,
     HomeComponent,
+    AboutMeComponent,
 
 
   ],
